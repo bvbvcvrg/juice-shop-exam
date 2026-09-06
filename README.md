@@ -15,7 +15,8 @@ juice-shop-exam/
 │   ├── bearer-report.html       → rapport SAST + secrets (Bearer CLI), lisible dans un navigateur
 │   ├── bearer-report.json       → même rapport, format JSON
 │   └── npm-audit-report.json    → résultat de npm audit dans le pipeline (voir limite ci-dessous)
-├── screenshots/                 → captures d'écran des étapes validées
+├── screenshots/examen/           → captures d'écran des étapes validées (sous-dossier dédié,
+│                                    distinct des captures promotionnelles d'origine du projet)
 └── [code source de Juice Shop]  → application auditée (bkimminich/juice-shop)
 ```
 
